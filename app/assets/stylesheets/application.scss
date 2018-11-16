@@ -13,3 +13,37 @@
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+.banner_title h1{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+.navbar {
+  justify-content: space-between;
+}
+
+body {
+  color: white;
+ background-image: url(background.jpg);
+ background-size: 100%;
+
+}
+.recette {
+  background-color: #e0dede;
+  color:black;
+  border-radius: 15px
+}
+.navbar {
+  background-color: black;
+  opacity: 0.9;
+}
+
+.card {
+  width: 350px;
+  margin: 20px;
+}
+.name {
+  color:black;
+}
+
