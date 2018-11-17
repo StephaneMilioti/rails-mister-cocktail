@@ -5,7 +5,7 @@
   <% @cocktails.each do |cocktail| %>
     <div class="card col-xs-12 col-sm-4">
       <div class="name"><%= cocktail.name %> </div>
-      <div class="card-img-top"> <%= image_tag("test.jpg") %>
+ <div class="card-img-top"> <%= image_tag(cocktail.image, size: "300x200")%>
       </div>
       <div>
         <%= link_to '<i class="fas fa-eye"></i>'.html_safe, cocktail %>
